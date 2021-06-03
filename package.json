@@ -1,0 +1,34 @@
+{
+  "name": "fullstack-reps-doglist",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "react-dev": "webpack --mode development --watch",
+    "server-dev": "npx nodemon server/index.js",
+    "start": "nodemon server",
+    "build": "webpack",
+    "watch": "webpack -w",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Hack Reactor <curriculum.team@hackreactor.com>",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.0",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "jquery": "^3.1.1",
+    "mysql": "^2.18.1",
+    "react": "^16.4",
+    "react-dom": "^16.4"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.11.6",
+    "@babel/preset-env": "^7.11.5",
+    "@babel/preset-react": "^7.10.4",
+    "babel-loader": "^8.1.0",
+    "webpack": "^4.44.2",
+    "webpack-cli": "^3.3.12"
+  }
+}
